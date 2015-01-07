@@ -1,0 +1,8 @@
+{application,simple_cache,
+             [{description,"Simple caching system, OTP-style."},
+              {vsn,"0.1.0"},
+              {modules,[sc_app,sc_element,sc_store,sc_sup]},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{sc_app,[]}},
+              {env,[]}]}.
