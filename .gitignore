@@ -2,3 +2,4 @@
 rebar
 src/*.erl~
 src/*.beam
+src/*src~
